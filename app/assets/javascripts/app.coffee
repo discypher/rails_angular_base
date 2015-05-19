@@ -20,6 +20,5 @@ controllers= angular.module('controllers', [])
 controllers.controller('MyController', [
   '$scope', '$routeParams', '$location', '$resource',
   ($scope, $routeParams, $location, $resource) ->
-    $scope.doSomething = (params) ->
-      $location.path('/').doSomething('params', params)
+    
 ])
